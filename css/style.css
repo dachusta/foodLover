@@ -1,3 +1,67 @@
 body {
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'David Libre', serif;
+    background: #1d1d23;
+}
+
+.header {
+    background: url('../img/header-bg.jpg') #28282d no-repeat center / cover;
+}
+.header__container {
+    background-color: #28282d;
+    opacity: .95;
+}
+.header__menu {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.menu__link {
+    margin: 0px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+.menu__logo {
+
+}
+
+.header__body {
+    display: flex;
+    justify-content: center;
+}
+.header__img {
+    margin: auto 0;
+    padding: 50px;
+}
+.header__img img {
+    max-width: 100%;
+}
+.header__content {
+    max-width: 500px;
+    margin: auto 0;
+}
+.header__title {
+    margin: 0 0 20px 0;
+    font-size: 64px;
+    color: #e58f00;
+}
+.header__text {
+    margin: 0 0 20px 0;
+    font-size: 32px;
+    color: #fff;
+}
+.header__btn {
+    padding: 20px 35px;
+    font-size: 32px;
+    background-color: #e58f00;
 }
