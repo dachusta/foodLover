@@ -1,5 +1,13 @@
+@font-face {
+	font-family: 'AachenBt';
+	src: url('../fonts/aachen_bt.eot');
+	src: local('☺'), url('../fonts/aachen_bt.woff') format('woff'), url('../fonts/aachen_bt.ttf') format('truetype'), url('../fonts/aachen_bt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
-    font-family: 'David Libre', serif;
+    font-family: 'AachenBt';
     background: #1d1d23;
 }
 
@@ -9,11 +17,12 @@ body {
 .header__container {
     background-color: #28282d;
     opacity: .95;
+    height: 100vh;
 }
 .header__menu {
     max-width: 1350px;
     margin: 0 auto;
-    padding-top: 15px;
+    padding: 15px 50px 0 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +35,6 @@ body {
 .menu__link {
     margin: 0px 25px;
     font-size: 20px;
-    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -38,17 +46,23 @@ body {
 .header__body {
     display: flex;
     justify-content: center;
+    height: calc(100vh - 98px);
 }
 .header__img {
+    flex: 1 1 100%;
+    max-width: 700px;
     margin: auto 0;
     padding: 50px;
+    text-align: right;
 }
 .header__img img {
     max-width: 100%;
 }
 .header__content {
-    max-width: 500px;
+    flex: 1 1 100%;
+    max-width: 700px;
     margin: auto 0;
+    padding: 50px 50px 50px 0px;
 }
 .header__title {
     margin: 0 0 20px 0;
